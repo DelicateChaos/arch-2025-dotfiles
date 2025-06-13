@@ -1,11 +1,10 @@
 #!/bin/bash
 
 # Start swww
-if ! pgrep -x swww > /dev/null; then
-    swww-daemon &
-    disown
+if ! pgrep -x swww-daemon > /dev/null; then
+    swww-daemon & disown
     sleep 0.5
 fi
 
 # Make bkg black
-swww clear
+swww clear || true
