@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# Now deprecated since I use background-color in hyprland directly 
+
 # Start swww
 if ! pgrep -x swww-daemon > /dev/null; then
     swww-daemon & disown
