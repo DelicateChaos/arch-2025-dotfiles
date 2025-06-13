@@ -14,6 +14,7 @@ update_system_config() {
     stow --dotfiles --adopt -v . 
     # Reset git to main branch
     git reset --hard
+    sleep 1
     refresh
 }
 
