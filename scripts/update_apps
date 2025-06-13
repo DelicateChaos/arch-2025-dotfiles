@@ -36,7 +36,7 @@ yay -Syu --needed --noconfirm swww
 # TUI
 echo "Installing TUI.."
 sudo pacman -S --needed --noconfirm ffmpeg zoxide fzf stow neovim htop btop tree bat curl rsync grep bash-completion zsh
-yay -S --needed --noconfirm neofetch
+yay -S --needed --noconfirm neofetch brightnessctl
 # GUI
 echo "Installing GUI apps.."
 sudo pacman -S --needed --noconfirm discord obs-studio emacs-wayland 
