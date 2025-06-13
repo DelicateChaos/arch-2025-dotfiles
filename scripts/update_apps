@@ -33,7 +33,6 @@ default_applications=(
     #decibels             # Media player
     #baobab               # Disk analyzer
     #gnome-software       # Browse apps
-    firefox
     neovim
     blueberry            # Bluetooth control
     nm-connection-editor # WiFi control
@@ -79,6 +78,7 @@ fonts=(
     ttf-jetbrains-mono     # System font
     #noto-fonts-emoji       # Emoji font
     #awesome-terminal-fonts # Better align icons
+    nerd-fonts
 )
 
 

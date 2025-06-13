@@ -1,7 +1,5 @@
 #!/bin/bash
 
-# Now deprecated since I use background-color in hyprland directly 
-
 # Start swww
 if ! pgrep -x swww-daemon > /dev/null; then
     swww-daemon & disown
@@ -9,4 +7,4 @@ if ! pgrep -x swww-daemon > /dev/null; then
 fi
 
 # Make bkg black
-swww clear || true
+swww img ~/wallpapers.jpg --resize fill
