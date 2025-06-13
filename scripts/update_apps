@@ -57,7 +57,7 @@ packages=(
     hyprlock                    # Lock manager
     hypridle                    # Idle manager
     wlogout                     # Logout menu
-    #nwg-look                    # GTK Themer
+    nwg-look                    # GTK Themer
     fzf
     stow
     zoxide
@@ -67,6 +67,7 @@ packages=(
     rsync
     grep
     bash-completion
+
 )
 
 rog_packages=(
