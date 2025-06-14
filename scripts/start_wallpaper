@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# Attempt to kill if already running
+swww kill 2>/dev/null || true
 # Start swww
 if ! pgrep -x swww-daemon > /dev/null; then
     swww-daemon & disown
