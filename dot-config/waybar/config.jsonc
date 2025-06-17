@@ -7,9 +7,9 @@
     "margin-right": 15,
     "margin-left": 15,
 
-    "modules-left": ["hyprland/workspaces", "hyprland/window"],
-    "modules-center": ["clock"],
-    "modules-right": ["wireplumber","hyprland/language", "network", "tray"],
+    "modules-left": ["hyprland/workspaces", "hyprland/mode"],
+    "modules-center": ["hyprland/window"],
+    "modules-right": ["wireplumber", "network", "cpu", "memory", "battery", "tray", "clock"],
 
     "hyprland/workspaces": {
         "format": "<span size='larger'>{icon}</span>",
@@ -32,16 +32,31 @@
     "clock": {
         "format": "{:%m.%d.%Y | %H:%M}"
     },
+    
+    "cpu": {
+        "format": "{usage}% "
+    },
+    "memory": {
+        "format": "{}% "
+    },
+    "battery": {
+        "bat": "BAT0",
+        "states": {
+            // "good": 95,
+            "warning": 30,
+            "critical": 15
+        },
+        "format": "{capacity}% {icon}",
+        // "format-good": "", // An empty format will hide the module
+        // "format-full": "",
+        "format-icons": ["", "", "", "", ""]
+    },
 
     "wireplumber": {
         "format": "\udb81\udd7e  {volume}%",
         "max-volume": 100,
         "scroll-step": 5,
         "on-click": "pavucontrol"
-    },
-
-    "backlight": {
-        "format": "\udb80\udcdf  {percent}%"
     },
 
     "network": {
