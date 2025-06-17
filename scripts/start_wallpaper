@@ -9,4 +9,4 @@ if ! pgrep -x swww-daemon > /dev/null; then
 fi
 
 # Make bkg black
-swww img ~/wallpapers/wallpaper1.jpg --resize stretch
+swww img ~/wallpapers/wallpaper1.jpg --resize fill
