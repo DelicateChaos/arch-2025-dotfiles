@@ -100,7 +100,7 @@ function current_pwd {
 }
 
 PROMPT='
-%{$fg[white]%}╭──%{$fg[red]%} $(current_pwd)%{$reset_color%} $(git_prompt_string)%{$reset_color%}
+%{$fg[white]%}╭──%{$fg[white]%} $(current_pwd)%{$reset_color%} $(git_prompt_string)%{$reset_color%}
 %{$fg[white]%}╰────▶ %{$reset_color%}'
 
 export SPROMPT="Correct $fg[red]%R$reset_color to $fg[green]%r$reset_color [(y)es (n)o (a)bort (e)dit]? "
