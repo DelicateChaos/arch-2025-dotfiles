@@ -18,6 +18,7 @@ applications=(
     steam
     github-desktop-bin
     discord
+    betterdiscord-installer
     qbittorrent
     obs-studio
 
