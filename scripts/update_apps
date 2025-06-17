@@ -51,11 +51,11 @@ packages=(
     waybar                      # Status waybar
     tofi                        # App launcher
     #waypaper                    # GUI Wallpaper manager
-    #hyprpaper                   # Wallpaper backend
     #swaync                      # Notifications
     wl-clipboard                # Clipboard manager
     hyprlock                    # Lock manager
     hypridle                    # Idle manager
+    hyprpaper                   # Wallpaper backend
     wlogout                     # Logout menu
     nwg-look                    # GTK Themer
     fzf
@@ -68,6 +68,8 @@ packages=(
     grep
     bash-completion
 
+    qt5ct 
+    qt6ct
 )
 
 rog_packages=(
