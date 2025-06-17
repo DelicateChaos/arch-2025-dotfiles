@@ -1,6 +1,6 @@
 #!/bin/bash
 
-hyprctl hyprpaper reload ,"~/wallpapers/wallpaper1.jpg"
+hyprctl hyprpaper reload ,"~/wallpapers/wallpaper2.jpg"
 
 # # Attempt to kill if already running
 # swww kill 2>/dev/null || true
