@@ -1,12 +1,14 @@
 #!/bin/bash
 
-# Attempt to kill if already running
-swww kill 2>/dev/null || true
-# Start swww
-if ! pgrep -x swww-daemon > /dev/null; then
-    swww-daemon & disown
-    sleep 0.5
-fi
+hyprctl hyprpaper reload ,"~/wallpapers/wallpaper1.jpg"
 
-# Make bkg black
-swww img ~/wallpapers/wallpaper1.jpg --resize fill
+# # Attempt to kill if already running
+# swww kill 2>/dev/null || true
+# # Start swww
+# if ! pgrep -x swww-daemon > /dev/null; then
+#     swww-daemon & disown
+#     sleep 0.5
+# fi
+
+# # Make bkg black
+# swww img ~/wallpapers/wallpaper1.jpg --resize fill
