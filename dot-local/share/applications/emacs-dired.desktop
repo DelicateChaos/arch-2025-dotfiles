@@ -4,5 +4,6 @@ Version=1.0
 Type=Application
 Name=Emacs Dired
 NoDisplay=true
-Exec=emacsclient --eval '(dired %f)'
+Exec=emacsclient --eval "(dired \"%f\")"
+MimeType=inode/directory;application/x-directory;
 Comment=Emacs Dired
