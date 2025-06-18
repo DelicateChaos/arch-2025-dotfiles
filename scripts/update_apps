@@ -49,6 +49,7 @@ default_applications=(
 packages=(
     hyprland                    # WM
     xdg-desktop-portal-hyprland # xdg desktop portal for hyprland
+    xdg-desktop-portal-gtk      # File picker
     ly                          # LM
     kitty                       # Terminal
     waybar                      # Status waybar
