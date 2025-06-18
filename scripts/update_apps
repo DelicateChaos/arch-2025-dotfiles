@@ -72,10 +72,15 @@ packages=(
     grep
     bash-completion
 
-    qt5ct 
+    qt5ct-kde
     qt5-wayland
-    qt6ct
+    qt6ct-kde
     qt6-wayland
+
+    breeze
+    breeze-gtk
+    breeze-icons
+    kvantum
 )
 
 rog_packages=(
