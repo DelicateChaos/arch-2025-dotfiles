@@ -105,7 +105,7 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 # Setup scripts directory on path
-export PATH="$HOME/scripts:$HOME/.emacs.d/bin:$PATH"
+export PATH="$HOME/.local/bin:$HOME/scripts:$HOME/.emacs.d/bin:$PATH"
 
 alias discord="discord --enable-features=WaylandWindowDecorations --ozone-platform-hint=auto"
 alias emacs="emacsclient -c -a 'emacs'"
