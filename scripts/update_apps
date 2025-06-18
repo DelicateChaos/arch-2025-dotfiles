@@ -72,7 +72,9 @@ packages=(
     bash-completion
 
     qt5ct 
+    qt5-wayland
     qt6ct
+    qt6-wayland
 )
 
 rog_packages=(
