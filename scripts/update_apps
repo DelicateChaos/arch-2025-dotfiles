@@ -15,7 +15,7 @@ echo "Starting instillation for custom apps"
 applications=(
     firefox-developer-edition  # Browser
     emacs-wayland
-    steam
+    #steam
     github-desktop-bin
     discord
     betterdiscord-installer
@@ -35,9 +35,13 @@ default_applications=(
     #baobab               # Disk analyzer
     #gnome-software       # Browse apps
     neovim
-    blueberry            # Bluetooth control
-    nm-connection-editor # WiFi control
-    pavucontrol          # Audio control
+    pipewire 
+    wireplumber 
+    bluez
+    bluetui
+    # blueberry            # Bluetooth control
+    # nm-connection-editor # WiFi control
+    # pavucontrol          # Audio control
     kooha                # Video record
     htop                 # Process viewer
     btop
@@ -65,8 +69,6 @@ packages=(
     fzf
     stow
     zoxide
-    pipewire              # Sound server
-    zoxide                # Makes moving in terminal much easier
     curl
     rsync
     grep

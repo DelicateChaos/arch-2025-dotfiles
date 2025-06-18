@@ -7,9 +7,9 @@
     "margin-right": 15,
     "margin-left": 15,
 
-    "modules-left": ["hyprland/workspaces", "hyprland/mode"],
+    "modules-left": ["hyprland/workspaces", "hyprland/submap"],
     "modules-center": ["hyprland/window"],
-    "modules-right": ["wireplumber", "network", "cpu", "memory", "battery", "tray", "clock"],
+    "modules-right": ["pulseaudio/slider", "wireplumber", "network", "cpu", "memory", "battery", "tray", "clock"],
 
     "hyprland/workspaces": {
         "format": "<span size='larger'>{icon}</span>",
@@ -32,7 +32,7 @@
     "clock": {
         "format": "{:%m.%d.%Y | %H:%M}"
     },
-    
+
     "cpu": {
         "format": "{usage}% "
     },
@@ -51,12 +51,18 @@
         // "format-full": "",
         "format-icons": ["", "", "", "", ""]
     },
+    
+    "pulseaudio/slider": {
+        "min": 0,
+        "max": 100,
+        "orientation": "horizontal",
+        "expand": false
+    },
 
     "wireplumber": {
         "format": "\udb81\udd7e  {volume}%",
         "max-volume": 100,
         "scroll-step": 5,
-        "on-click": "pavucontrol"
     },
 
     "network": {
