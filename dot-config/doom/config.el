@@ -74,5 +74,5 @@
 ;;
 ;; You can also try 'gd' (or 'C-c c d') to jump to their definition and see how
 ;; they are implemented.
-(after! org
- (org-autolist-mode +1))
+(add-hook 'org-mode-hook
+          (lambda () (org-autolist-mode)))
