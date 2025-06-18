@@ -1,0 +1,3 @@
+#!/usr/bin/env sh
+dir="${1:-$HOME}"
+exec emacsclient --eval "(dired \"${dir}\")"
