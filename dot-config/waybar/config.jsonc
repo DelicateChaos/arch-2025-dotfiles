@@ -9,7 +9,7 @@
 
     "modules-left": ["hyprland/workspaces", "hyprland/submap"],
     "modules-center": ["hyprland/window"],
-    "modules-right": ["pulseaudio/slider", "wireplumber", "network", "cpu", "memory", "battery", "tray", "clock"],
+    "modules-right": ["wireplumber", "network", "cpu", "memory", "battery", "tray", "clock"],
 
     "hyprland/workspaces": {
         "format": "<span size='larger'>{icon}</span>",
@@ -50,13 +50,6 @@
         // "format-good": "", // An empty format will hide the module
         // "format-full": "",
         "format-icons": ["", "", "", "", ""]
-    },
-    
-    "pulseaudio/slider": {
-        "min": 0,
-        "max": 100,
-        "orientation": "horizontal",
-        "expand": false
     },
 
     "wireplumber": {
