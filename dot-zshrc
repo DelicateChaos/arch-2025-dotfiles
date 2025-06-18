@@ -108,5 +108,6 @@ source $ZSH/oh-my-zsh.sh
 export PATH="$HOME/scripts:$HOME/.emacs.d/bin:$PATH"
 
 alias discord="discord --enable-features=WaylandWindowDecorations --ozone-platform-hint=auto"
+alias emacs="emacsclient -c -a 'emacs'"
 
 eval "$(zoxide init --cmd cd zsh)"
