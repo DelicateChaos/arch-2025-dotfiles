@@ -107,4 +107,6 @@ source $ZSH/oh-my-zsh.sh
 # Setup scripts directory on path
 export PATH="$HOME/scripts:$HOME/.emacs.d/bin:$PATH"
 
+alias discord="discord --enable-features=WaylandWindowDecorations --ozone-platform-hint=auto"
+
 eval "$(zoxide init --cmd cd zsh)"
