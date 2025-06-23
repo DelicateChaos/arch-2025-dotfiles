@@ -76,15 +76,17 @@ packages=(
     bash-completion
 
     qt5ct
-    qt5-style-kvantum
+    
     qt5-wayland
     qt6ct
     qt6-wayland
 
-    breeze
-    breeze-gtk
-    breeze-icons
+    qt5-style-kvantum
     kvantum
+
+    grim
+    slurp
+    swappy
 )
 
 rog_packages=(
