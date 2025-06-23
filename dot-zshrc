@@ -109,5 +109,6 @@ export PATH="$HOME/.local/bin:$HOME/scripts:$HOME/.emacs.d/bin:$PATH"
 
 alias discord="discord --enable-features=WaylandWindowDecorations --ozone-platform-hint=auto"
 alias emacs="emacsclient -c -a 'emacs'"
+alias firefox="GTK_USE_PORTAL=1 firefox"
 
 eval "$(zoxide init --cmd cd zsh)"
