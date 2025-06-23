@@ -87,6 +87,8 @@ packages=(
     grim
     slurp
     swappy
+
+    wev
 )
 
 rog_packages=(
