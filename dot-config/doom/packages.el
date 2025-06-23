@@ -50,3 +50,4 @@
 
 (package! tldr)
 (package! org-autolist)
+(package! lsp-pyright)
