@@ -28,7 +28,6 @@ applications=(
 )
 
 default_applications=(
-    #nautilus             # File manager
     #eog                  # Image viewer
     #evince               # Document viewer
     #decibels             # Media player
@@ -40,8 +39,7 @@ default_applications=(
     bluez
     bluetui
     # blueberry            # Bluetooth control
-    # nm-connection-editor # WiFi control
-    # pavucontrol          # Audio control
+    pavucontrol          # Audio control
     kooha                # Video record
     htop                 # Process viewer
     btop
@@ -76,7 +74,6 @@ packages=(
     bash-completion
 
     qt5ct
-    
     qt5-wayland
     qt6ct
     qt6-wayland
@@ -88,18 +85,23 @@ packages=(
     slurp
     swappy
 
-    wev
+    wev                     # Keyboard Debugger 
+
+    hyprpicker              # Color Picker 
+
+    nodejs
+    npm
+
 )
 
 rog_packages=(
     rogauracore-git 
-    asus-fan-control
+    rog-control-center
+    asusctl 
 )
 
 fonts=(
     ttf-jetbrains-mono     # System font
-    #noto-fonts-emoji       # Emoji font
-    #awesome-terminal-fonts # Better align icons
     nerd-fonts
 )
 
